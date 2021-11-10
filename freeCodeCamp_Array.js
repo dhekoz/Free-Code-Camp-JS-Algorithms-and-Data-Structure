@@ -30,3 +30,35 @@ const myArr3 = [
 
 const myData2 = myArr3[2][1];
 console.log(myData2);
+
+//................................Manipulate Arrays With push()..............................................................//
+const myUnitedArr = [["Ronaldo", 7], ["Bruno", 18], ["De Gea", 1]];
+myUnitedArr.push(["Cavani", 21]);
+console.log(myUnitedArr);
+
+//................................Manipulate Arrays With pop()................................................................//
+const unitedArr = [["Ronaldo, 7"], ["Bruno, 18"], ["De Gea", 1], ["Fred", 17]];
+const worstDown = unitedArr.pop();
+console.log(worstDown);
+console.log(unitedArr);
+
+//........................................Manipulate Arrays With shift()......................................................//
+
+const newUnitedArr = [["Ronaldo, 7"], ["Bruno, 18"], ["De Gea", 1], ["Fred", 17]];
+const theBestOut = newUnitedArr.shift();
+console.log(theBestOut);
+console.log(newUnitedArr);
+
+//.........................................Manipulate Arrays With unshift()...................................................//
+const nuUnitedArr = [["Ronaldo", 7], ["Bruno", 18 ], ["De Gea" , 1], ["Fred", 17]];
+nuUnitedArr.shift();
+
+nuUnitedArr.unshift([" Pogba", 6]);
+
+console.log("the new united are : \n\t" + nuUnitedArr);
+console.log(nuUnitedArr);
+
+//................................................Shopping List.............................................................//
+
+const unitedShoppingList = [["Messi", 10], ["Koulibally", 3], ["Barella", 20], ["Haaland", 12], ["Locatelli", 68]];
+console.log(unitedShoppingList);
